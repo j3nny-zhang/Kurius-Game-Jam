@@ -55,6 +55,9 @@ TagManager:
   - name: Town_Details
     uniqueID: 704607315
     locked: 0
+  - name: Parking Lot
+    uniqueID: 1699772439
+    locked: 0
   - name: Player
     uniqueID: 1170179295
     locked: 0
