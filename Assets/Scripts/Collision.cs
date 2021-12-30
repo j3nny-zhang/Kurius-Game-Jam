@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 using static Score; 
 
@@ -12,6 +13,11 @@ public class Collision : MonoBehaviour
         {
             Destroy(collision.gameObject);
             scoreValue++;
+
+            if (scoreValue == 6)
+            {
+                SceneManager.LoadScene("Closing Cutscene");
+            }
         }
     }
 }
