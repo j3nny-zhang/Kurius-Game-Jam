@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -67,7 +66,6 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            Debug.Log("ejnbfewfew");
             SceneManager.LoadScene("Main");
         }
     }

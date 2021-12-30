@@ -7,7 +7,7 @@ using static Score;
 
 public class Timer : MonoBehaviour
 {
-    public float timerCount = 0;
+    public static float timerCount = 0;
     Text timer;
 
     // Start is called before the first frame update
